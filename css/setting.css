@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro';
+    background-color: #6D6875;
+}
+
+.settings {
+    display: block;
+}
+
+.square {
+    margin-left: 285px;
+    margin-top: 37px;
+    background: url(../pics/setting.png) no-repeat center/cover;
+    width: 10in;
+    height: 7in;
+    border-radius: 30px;
+}
+
+.lang {
+    padding-left: 295px;
+    color: white;
+    font-size: 50px;
+}
+
+.option {
+    display: block;
+}
+
+.option li {
+    padding-top: 80px;
+    color: white;
+    list-style: none;
+    text-align : center;
+}
+
+a:hover {
+    color: #c4c4c4;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .square {
+        margin-left: 20px;
+        margin-top: 20px;
+        height: 6.5in;
+        width: 450px;
+    }
+
+    .lang {
+        padding-left: 113px;
+        font-size: 30px;
+    }
+
+    a {
+        font-size: 20px;
+    }
+}
